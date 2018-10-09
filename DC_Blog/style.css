@@ -1,6 +1,7 @@
 body {
     background-color:100% 100% #eee;
     margin: 0 auto;
+    font-family: Helvetica;
 }
 
 header {
@@ -23,6 +24,9 @@ ul.menuL {
 
 ul.menuL li {
     display:inline;
+    font-family: Helvetica;
+    font-size: 22px;
+    list-style: none;
 }
 
 ul.menuR {
@@ -33,15 +37,27 @@ ul.menuR {
 
 ul.menuR li {
     display:inline;
+    list-style:none;
 }
 
 ul.title {
     list-style:none;
     text-align:center;
+    font-size: 24px;
 }
 
-ul.title:first-child {
-    text-emphasis: strong;
+ul.date {
+    list-style:none;
+    text-align:center;
+    font-size: 10px;
+    color: rgb(180, 177, 177);
+    font-weight:200;
+    line-height: 0;
+}
+
+ul.button {
+    list-style:none;
+    text-align:center;
 }
 
 main {

@@ -1,0 +1,48 @@
+* {
+    font-family: Helvetica;
+}
+
+body {
+    display:flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+header {
+    background-image: url("atl.png");
+    background-color:blue;
+    width: 35%;
+}
+
+.menu {
+    list-style:none;
+    color: white;
+    float:right;
+    display:inline-block;
+}
+
+.logo {
+    list-style: none; 
+    float:middle;
+}
+
+.title {
+    list-style:none; 
+    color:white;
+    float:middle;
+}
+
+.subheading {
+    color:white;
+}
+
+.body {
+    background-color: blueviolet;
+    width:50%;
+}
+
+.footer {
+    background-color: grey;
+    width:15%;
+}
